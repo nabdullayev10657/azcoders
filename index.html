@@ -2,31 +2,64 @@
 <head>
   <meta charset="UTF-8">
   <title>AzCoders Team</title>
+  <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
   <header>
+    <nav>
+      <ul>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Our projects</a></li>
+      </ul>
+      <ul class="lang">
+        <li><a href="#">En</a></li>
+        <li><a href="#">Ru</a></li>
+        <li><a href="#">Az</a></li>
+        <li><a href="#">Tr</a></li>
+      </ul>
+    </nav>
+    <script type="text/javascript">
+      window.addEventListener("scroll",function(){
+        var navigation = document.querySelector("nav");
+        navigation.classList.toggle("new-design",window.scrollY > 220);
+      })
+
+
+    </script>
     <div class="slideshow">
-      <nav>
-        <ul>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Our project</a></li>
-        </ul>
-      </nav>
+      <h1>Welcome to AzCoders !</h1>
+       <video autoplay muted>
+        <source src="video/demo.mp4" type="video/mp4">
+        Doesn't work , check the browser !
+       </video>
+
     </div>
   </header>
   <main>
-    <section class="introduction">
-      <div class="member1">
-        Member 1
+    <div class="content">
+      <section class="introduction">
+        <h1>Our team</h1>
+        <div class="member1">
+          <img src="img/default.jpg" width="150px" height="150px">
+          <h4>Huseyn Hajiyev</h4>
+        </div>
+        <div class="member2">
+          <img src="img/default.jpg" width="150px" height="150px">
+          <h4>Nihat Abdullayev</h4>
+        </div>
+        <div class="member3">
+          <img src="img/default.jpg" width="150px" height="150px">
+          <h4>Alkim Demirchi</h4>
+        </div>
 
-      </div>
-      <div class="member2">
-        Member 2
-      </div>
-      <div class="member3">
-        Member 3
-      </div>
+      </section>
+      <footer>
+        <h4>© Copyrights by AzCoders team</h4>
+      </footer>
+    </div>
 
-    </section>
+
+
   </main>
+
 </body>
