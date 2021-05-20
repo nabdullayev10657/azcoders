@@ -7,9 +7,8 @@
 }
 
 .lang{
-  padding-left: 1100px;
-  padding-bottom: 10px;
-  display: inline;
+  margin-left: 655px!important;
+  margin-top: -56px!important;
 }
 
 .lang li{
@@ -42,10 +41,18 @@ nav ul li a{
   letter-spacing: 2px;
 }
 
+nav ul li a:hover{
+  color: #8fbcbb;
+}
+
 nav.new-design{
   position: fixed;
   background: white;
   z-index: 3;
+}
+
+nav.new-design ul li{
+  padding-right: 145px;
 }
 
 nav.new-design ul li a{
@@ -53,8 +60,29 @@ nav.new-design ul li a{
   color: black;
   font-size: 18px;
   letter-spacing: 2px;
+}
+
+nav.new-design ul li a:hover{
+  color:green;
+}
+
+.active{
+  border-bottom: 5px solid grey;
+  position: absolute;
 
 }
+
+li a.active:hover{
+  border-bottom-color: green!important;
+}
+
+
+
+.menu li a:hover{
+  border-bottom: 5px solid #00fa9a;
+  position: absolute;
+}
+
 
 .slideshow{
   height: auto;
@@ -78,10 +106,31 @@ nav.new-design ul li a{
   color: white;
   text-shadow: 4px 2px black;
 }
+.slideshow-ru{
+  height: auto;
+  overflow: hidden;
+  margin-bottom: -10px;
+}
+
+.slideshow-ru video{
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slideshow-ru h1{
+  padding-left: 310px;
+  padding-top: 250px;
+  z-index: 2;
+  font-size: 45px;
+  position: absolute;
+  color: white;
+  text-shadow: 4px 2px black;
+}
 
 .content{
   position: relative;
-  opacity: 0.8;
   z-index: 1;
   width: auto;
   overflow: hidden;
@@ -102,7 +151,7 @@ nav.new-design ul li a{
 
 .member1{
   margin-top: 40px;
-  margin-left: 180px;
+  margin-left: 100px;
   z-index: 1;
   position: relative;
   display: inline-block;
@@ -123,6 +172,22 @@ nav.new-design ul li a{
   z-index: 1;
   position: relative;
   display: inline-block;
+}
+
+.intro{
+  background-color: rgba(17, 17, 17, 0.5);
+  width: 150px;
+  height: 60px;
+  margin-top:164px;
+  right: 62px;
+  position: absolute;
+  display: inline-block;
+}
+
+.intro h4{
+  color:white;
+  padding-top: 20px;
+  padding-left: 15px;
 }
 
 footer h4{
