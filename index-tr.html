@@ -3,34 +3,23 @@
   <meta charset="UTF-8">
   <title>AzCoders Team</title>
   <link href="css/main.css" rel="stylesheet">
+  <script src="js/main.js"></script>
 </head>
 <body>
   <header>
     <nav>
       <ul id="menu">
-        <li><a  id="active" href="index.html">About us</a></li>
-        <li><a href="#">Our projects</a></li>
+        <li><a id="active" href="index-tr.html">Main page</a></li>
+        <li><a href="#">About us</a></li>
+        <li id='projects'><a href="#">Our projects</a></li>
       </ul>
       <ul class="lang">
-        <li><a href="#">En</a></li>
-        <li><a href="#">Ru</a></li>
-        <li><a href="#">Az</a></li>
-        <li><a href="#">Tr</a></li>
+        <li><a href="index.html">En</a></li>
+        <li><a href="index-ru.html">Ru</a></li>
+        <li><a href="index-az.html">Az</a></li>
+        <li><a href="index-tr.html">Tr</a></li>
       </ul>
     </nav>
-    <script type="text/javascript">
-      window.addEventListener("scroll",function(){
-        var navigation = document.querySelector("nav");
-        var titles = document.getElementById("active");
-        var menu = document.getElementById("menu");
-        var pos = 210;
-        navigation.classList.toggle("new-design",window.scrollY > pos);
-        titles.classList.toggle("active",window.scrollY > pos);
-        menu.classList.toggle("menu",window.scrollY > pos);
-      })
-
-
-    </script>
     <div class="slideshow">
       <h1>Welcome to AzCoders !</h1>
        <video autoplay loop muted>
@@ -48,7 +37,7 @@
           <img src="img/huseyn.jpg" width="212px" height="224px">
           <div class="intro">
             <h4>Huseyn Hajiyev</h4>
-          </div>  
+          </div>
         </div>
         <div class="member2">
           <img src="img/nihat.jpg" width="212px" height="224px">

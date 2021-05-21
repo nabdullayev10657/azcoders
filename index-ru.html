@@ -3,13 +3,16 @@
   <meta charset="UTF-8">
   <title>AzCoders Team</title>
   <link href="css/main.css" rel="stylesheet">
+  <link href="css/main-ru.css" rel="stylesheet">
+  <script src="js/main.js"></script>
 </head>
 <body>
   <header>
     <nav>
       <ul id="menu">
-        <li><a  id="active" href="#">О нас</a></li>
-        <li><a href="#">Наши проекты</a></li>
+        <li><a id="active" href="index-ru.html">Главная</a></li>
+        <li><a href="#">О нас</a></li>
+        <li id='projects'><a href="#">Наши проекты</a></li>
       </ul>
       <ul class="lang">
         <li><a href="index.html">En</a></li>
@@ -18,19 +21,6 @@
         <li><a href="index-tr.html">Tr</a></li>
       </ul>
     </nav>
-    <script type="text/javascript">
-      window.addEventListener("scroll",function(){
-        var navigation = document.querySelector("nav");
-        var titles = document.getElementById("active");
-        var menu = document.getElementById("menu");
-        var pos = 210;
-        navigation.classList.toggle("new-design",window.scrollY > pos);
-        titles.classList.toggle("active",window.scrollY > pos);
-        menu.classList.toggle("menu",window.scrollY > pos);
-      })
-
-
-    </script>
     <div class="slideshow-ru">
       <h1>Добро пожаловать на AzCoders !</h1>
        <video autoplay loop muted>

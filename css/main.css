@@ -7,7 +7,7 @@
 }
 
 .lang{
-  margin-left: 655px!important;
+  margin-left: 778px!important;
   margin-top: -56px!important;
 }
 
@@ -24,7 +24,7 @@ nav{
 
 nav ul{
   padding-top: 40px;
-  padding-left: 460px;
+  padding-left: 341px;
   overflow: hidden;
   transition: 1s;
 }
@@ -52,7 +52,7 @@ nav.new-design{
 }
 
 nav.new-design ul li{
-  padding-right: 145px;
+  padding-right: 155px;
 }
 
 nav.new-design ul li a{
@@ -68,7 +68,14 @@ nav.new-design ul li a:hover{
 
 .active{
   border-bottom: 5px solid grey;
-  position: absolute;
+  position: fixed;
+
+}
+
+.projects{
+  top: -12px;
+  left: 730.083px;
+  position:fixed;
 
 }
 
@@ -80,7 +87,7 @@ li a.active:hover{
 
 .menu li a:hover{
   border-bottom: 5px solid #00fa9a;
-  position: absolute;
+  position: fixed;
 }
 
 
@@ -106,28 +113,7 @@ li a.active:hover{
   color: white;
   text-shadow: 4px 2px black;
 }
-.slideshow-ru{
-  height: auto;
-  overflow: hidden;
-  margin-bottom: -10px;
-}
 
-.slideshow-ru video{
-  position: relative;
-  z-index: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.slideshow-ru h1{
-  padding-left: 310px;
-  padding-top: 250px;
-  z-index: 2;
-  font-size: 45px;
-  position: absolute;
-  color: white;
-  text-shadow: 4px 2px black;
-}
 
 .content{
   position: relative;
