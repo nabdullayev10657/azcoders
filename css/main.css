@@ -46,14 +46,13 @@ nav ul li a:hover{
 }
 
 nav.new-design{
-  position: fixed;
   background: white;
-  z-index: 3;
 }
-
+/*
 nav.new-design ul li{
   padding-right: 155px;
 }
+*/
 
 nav.new-design ul li a{
   text-decoration: none;
@@ -68,16 +67,17 @@ nav.new-design ul li a:hover{
 
 .active{
   border-bottom: 5px solid grey;
-  position: fixed;
+  /*position: fixed;*/
 
 }
-
+/*
 .projects{
   top: -12px;
   left: 730.083px;
   position:fixed;
 
 }
+*/
 
 li a.active:hover{
   border-bottom-color: green!important;
@@ -87,7 +87,7 @@ li a.active:hover{
 
 .menu li a:hover{
   border-bottom: 5px solid #00fa9a;
-  position: fixed;
+  /*position: fixed;*/
 }
 
 
